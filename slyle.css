@@ -1,0 +1,274 @@
+body
+{
+	background: rgb(255,162,0);
+background: radial-gradient(circle, rgba(255,162,0,1) 6%, rgba(208,62,0,1) 36%, rgba(0,0,0,1) 95%);
+	background-size: cover;
+	font-family: "Tektur", sans-serif; 		
+	color: #ffffff;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	border-bottom:5px solid 
+}
+.textext 
+{
+        display: flex;
+        align-items: center;
+        justify-content: space-between; 
+		padding: 30px;
+		font-size:20px;
+}
+.textext button
+{
+	margin-right: 100px;
+}
+h1
+{
+	text-shadow: 10px 10px 5px #000000;
+}
+
+.navbar ul{
+    list-style-type: none;
+	border-style:outset ;
+	border-width:5px;
+	border-color:#000000;
+    background-color: #313131;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: hsl(0, 0%, 10%);
+}
+.navbar li{
+    float: left;
+}
+
+.container 
+{
+	            display: flex;
+            align-items: center;
+            justify-content: space-between; 
+		padding: 30px;
+	border-color: #000000;
+	border-width: 5px;
+	border-style: dotted;
+	font-size:22px;
+	background-color: rgb(1, 0, 0, 0.5);
+	text-align: left;
+	height:650px;
+	text-shadow: 10px 5px 5px #000000;
+}
+
+button
+{
+	color: #ffffff;
+	border-width:5px;
+	background-color: rgb(0, 0, 0, 0);
+	border-color:#00f3ff;
+	font-size:25px;
+	padding:10px;
+}
+.blob 
+{
+    background: black;
+    border-radius: 50%;
+    margin: 10px;
+    height: 20px;
+    width: 10px;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
+    transform: scale(1);
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+    }
+
+    70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+    }
+
+    100% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+}
+#box1
+{
+	border:5px;
+	width:750px;
+	height:580px;
+	font-size:22px;
+	border-style:outset;
+	border-width:5px;
+	border-color:#ff8000;
+	border-radius:10px;
+
+}
+#box1 h2
+{
+	font-size:20px;
+	text-align:center;
+}
+.sub-title
+{
+	font-size:30px;
+}
+.values
+{
+	
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+	padding:50px;
+	font-size:18px;
+
+}
+.values ul
+{
+	background-color: rgb(1, 0, 0, 0.5);
+	border-style:dotted;
+	border-width:5px;
+	border-color:#000000;
+}
+.forma
+{
+	padding: 50px;
+	border-color: #000000;
+	border-width: 5px;
+	border-style: dotted;
+	background: rgb(2,0,36);
+	background: linear-gradient(90deg, rgba(2,0,36,0.7763480392156863) 0%, rgba(5,85,254,0.40940126050420167) 84%);
+	
+}
+form
+{
+		margin-left:1000px;
+}
+h2
+{
+	text-align: left;
+}
+
+.sub-header
+{
+	background-color: #ffffff
+	padding: 10px;
+	text-align: center;
+}
+
+header
+{
+	text-align: center;
+	font-size: 48 px;
+}
+
+#about
+{
+	text-align: center;
+}
+
+footer
+{
+	text-align: center;
+	color: #ffffff;
+}
+.menu
+{
+	position: sticky;
+	top:0;
+}
+.piccs
+{
+	display: flex;
+    align-items: center;
+	padding: 50px;
+	border-color: #000000;
+	border-width: 5px;
+	border-style: dotted;
+background: rgb(57,26,0);
+background: linear-gradient(0deg, rgba(57,26,0,1) 0%, rgba(185,255,0,0) 100%);
+}
+.piccs img
+{
+	border-color: #000000;
+	border-width: 6px;
+	border-style: dotted;
+	margin-left:80px;
+	max-height:500px;
+	max-width:450px;
+
+}
+.intesive
+{
+	display: flex;
+    align-items: center;
+	padding: 50px;
+	font-size:40px;
+	border-color: #000000;
+	border-width: 5px;
+	border-style: outset;
+background: rgb(255,0,0);
+background: radial-gradient(circle, rgba(255,0,0,0.35898109243697474) 6%, rgba(208,0,137,0.7763480392156863) 36%, rgba(0,0,0,1) 95%);
+	text-shadow: 10px 5px 5px #000000;
+}
+
+a:visited
+{
+	color:darkblue;
+}
+a:hover
+{
+	color:chartreuse;
+}
+.faq
+{
+	padding: 50px;
+	border-color: #000000;
+	border-width: 5px;
+	border-style: dotted;
+	background-color: rgb(1, 0, 0, 0.5);
+}
+.question
+{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+.question h3
+{
+	font-size:1.4rem;
+	margin-left:700px;
+	text-shadow: 10px 5px 5px #000000;
+
+}
+.answer
+{
+	max-height:0;
+	overflow:hidden;
+	transition: max-height 1.4s ease;
+}
+.answer p
+{
+	padding:10px;
+	line-height:1.6;
+	font-size:1.4rem;
+	border-color: #000000;
+	border-width: 5px;
+	border-style: dotted;
+}
+.faq.active .answer
+{
+	max-height:300px;
+}
