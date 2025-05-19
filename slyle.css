@@ -179,10 +179,23 @@ header
 	text-align: center;
 }
 
-footer
-{
-	text-align: center;
-	color: #ffffff;
+.site-footer {
+    background-color: #1a1a1a;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 1rem;
+    margin-top: auto;
+    font-family: 'Tektur', sans-serif;
+}
+
+.site-footer h2 {
+    margin-top: 0;
+    font-size: 1.5rem;
+}
+
+.site-footer p {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
 }
 .menu
 {
