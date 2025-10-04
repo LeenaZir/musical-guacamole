@@ -1,3 +1,5 @@
+//counting 
+
 const paragraphs = document.querySelectorAll('p');
 console.log('<p> count: ', paragraphs.length);
 
@@ -14,3 +16,22 @@ if (h1) {
 } else {
     console.log('No <h1> on this page.');
 }
+
+//thingy with mouse on element
+
+document.addEventListener('DOMContentLoaded', function () {
+    const elements = document.querySelectorAll('p, h1, h2');
+
+    elements.forEach(function (element) {
+        let originalBg = ''; 
+
+        element.addEventListener('mouseenter', function () {
+            originalBg = window.getComputedStyle(element).backgroundColor;
+            element.style.backgroundColor = 'red';
+        });
+
+        element.addEventListener('mouseleave', function () {
+            element.style.backgroundColor = originalBg;
+        });
+    });
+});
